@@ -1,0 +1,14 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "ES6 and beyond",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d es5"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 src -d es5"
+  },
+  "author": "",
+  "license": "ISC"
+}
